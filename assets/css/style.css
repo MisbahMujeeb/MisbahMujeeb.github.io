@@ -1,0 +1,51 @@
+.testimonials-row{
+    margin-top:40px;
+}
+
+.testimonials-image{
+    margin-top: 30px;
+    width:160px;
+    height:120px;
+    background-color:black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonials-name{
+    margin-bottom: 0rem;
+}
+
+.testimonials-designation{
+    font-size:0.9em;
+    color:gray;
+    margin-bottom:10px;
+    display: inline-block;
+}
+
+.testimonials-paragraph{
+    font-size: 0.9em;
+    color: #a6a6a6;
+}
+
+.skills-row{
+    margin-top:40px;
+}
+
+.skills-image{
+    margin-top: 30px;
+    width:160px;
+    height:120px;
+    background-color:black;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.skills-name{
+    margin-bottom: 0rem;
+}
+
+.skills-paragraph{
+    font-size: 0.9em;
+    color: #a6a6a6;
+}
+

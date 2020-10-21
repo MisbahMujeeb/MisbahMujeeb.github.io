@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Misbah Mujeeb Ur Rehman</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .modalDialog {
+            position: fixed;
+            font-family: Arial, Helvetica, sans-serif;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,0.8);
+            z-index: 99999;
+            opacity:0;
+            -webkit-transition: opacity 400ms ease-in;
+            -moz-transition: opacity 400ms ease-in;
+            transition: opacity 400ms ease-in;
+            pointer-events: none;
+        }
+
+        .modalDialog:target {
+            opacity:1;
+            pointer-events: auto;
+        }
+
+        .modalDialog > div {
+            width: 800px;
+            position: relative;
+            margin: 2% auto;
+            height: 600px;
+            padding: 5px 20px 13px 20px;
+            border-radius: 10px;
+            background: #fff;
+            background: -moz-linear-gradient(#fff, #999);
+            background: -webkit-linear-gradient(#fff, #999);
+            background: -o-linear-gradient(#fff, #999);
+        }
+
+        .close {
+            background: #606061;
+            color: #FFFFFF;
+            line-height: 25px;
+            position: absolute;
+            right: -12px;
+            text-align: center;
+            top: -10px;
+            width: 24px;
+            text-decoration: none;
+            font-weight: bold;
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 12px;
+            border-radius: 12px;
+            -moz-box-shadow: 1px 1px 3px #000;
+            -webkit-box-shadow: 1px 1px 3px #000;
+            box-shadow: 1px 1px 3px #000;
+        }
+
+.close:hover { background: #00d9ff; }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+			<header id="header">
+				<div class="content">
+					<h1><a href="#">Misbah Mujeeb Ur Rehman</a></h1>
+					<p>Front End Developer</p>
+				</div>
+				<div class="image phone"><div class="inner"><img height="300px" src="images/prfile.jpg" alt="" /></div></div>
+			</header>
+
+		<!-- One -->
+			<section id="one" class="wrapper style2 special">
+				<header class="major">
+					<h2>My Skills</h2>
+					<span>MS Office, HTML5, CSS3, JavaScript,<br /> Bootstrap, PHP, MySQL</span>
+				</header>
+				<ul class="icons major">
+                    
+					<li><img src="images/html.png"  style="height:40px;"></li>
+					<li><img src="images/css.png"  style="height:40px;"></li>
+                    <li><img src="images/javaScript.jpg"  style="height:40px;"></li>
+					<li><img src="images/bootstrap.png"  style="height:40px;"></li>
+                    <li><img src="images/phpmysql.png"  style="height:40px;"></li>
+                    <li><img src="images/msOffice.png"  style="height:40px;"></li>
+				</ul>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="wrapper">
+				<header class="major">
+					<h2>My Projects</h2>
+				</header>
+				<div class="inner alt">
+                    <section class="spotlight">
+						<div class="image"><img src="images/Project2.PNG" alt="" /><img src="images/Project21.PNG" alt="" /></div>
+						<div class="content">
+							<h3>Easy Tech</h3>
+							<p>Online Feedback form for Student to give Feedback . The tools used in development of this portal are PHP, MySQL, HTML and etc</p>
+						</div>
+					</section>
+                    <section class="spotlight">
+						<div class="image"><img src="images/user Product page.PNG" alt="" /></div>
+						<div class="content">
+							<h3>Lab Automation System (Semester End Project)</h3>
+							<p>Lab Automation System Provides Reports of Electronic Products. The tools used in development of this Project are PHP, MySQL,Bootstrap, HTML and etc</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/Project3.PNG" alt="" /></div>
+						<div class="content">
+							<h3>Shalle Pizzazz (Semester End Project)</h3>
+							<p>Online Pizza Delivery Website. Shalle Pizzazz is a Restaurant website for Online food Ordering. The tools used in development of this Project are HTML and css JavaScript etc</p>
+						</div>
+					</section>
+					<section class="spotlight">
+						<div class="image"><img src="images/todoApp.PNG" alt="" /></div>
+						<div class="content">
+							<h3>TO DO APP</h3>
+							<p>ToDoList used for home lists or to manage complex multi-user projects and tracking the status of tasks. The tools used in development of this Project are HTML and css JavaScript etc</p>
+						</div>
+					</section>
+				
+<section class="special">
+	<!-- <ul class="icons labeled">
+		&lt;!&ndash; <li><span class="icon fa-camera-retro"><span class="label">Ipsum lorem accumsan</span></span></li>
+		<li><span class="icon fa-refresh"><span class="label">Sed vehicula elementum</span></span></li>
+		<li><span class="icon fa-cloud"><span class="label">Elit fusce consequat</span></span></li> &ndash;&gt;
+		<li><span class="icon fa-code"><span class="label">Believe in Yourself</span></span></li>
+		<li><span class="icon fa-desktop"><span class="label">Do It!</span></span></li>
+	</ul> -->
+</section>
+				</div>
+			</section>
+
+		<!-- Three -->
+			<section id="three" class="wrapper style2 special" style='background-color:#636162;color:white;background-image: url("images/overlay.png"), url("images/pattern-size1.svg");'>
+				<header class="major">
+					<h2 style="color:white">What i Beleive</h2>
+					<p>Success is not built on success. It's built on failure. It's built on frustration. <br>Sometimes its built on catastrophe.</p>
+				</header>
+			</section>
+
+
+
+
+			
+		<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">&copy;Misbah Mujeeb Ur Rehman.</p>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+</body>
+</html>
